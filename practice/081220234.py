@@ -1,0 +1,6 @@
+print(10,20)
+a=open("file1","w")
+print(100,200,file=a,flush=True)
+print(100,200,end=";")
+print(1000,2000)
+print(10000,20000,file=a,flush=True)

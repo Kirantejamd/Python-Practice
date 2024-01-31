@@ -1,0 +1,15 @@
+#print data with different separator
+print(10)
+print(10,20)
+print(10,20,sep=":")
+print(10,20,30,40,50,sep=",")
+print(10,sep=",")
+print(10,"naresh",1+2j,sep="nit")
+print(10,"naresh",1+2j,sep=" nit ")
+print(10,20,30,40,sep="\n")
+print(10,20,30,40,sep="\t")
+print(10,20,30,40,sep="\t\t")
+print("rollno","name","course",sep="\t\t")
+print("101","namesh","pyhthon",sep="\t\t")
+print(1,2,3,4,5,sep="*")
+

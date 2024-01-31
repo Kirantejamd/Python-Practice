@@ -1,0 +1,11 @@
+#Type conversions
+a=int(65)
+b=int(45.78)
+c=int("78")
+d=int(True)
+e=int(False)
+f=int("0o45",base=8)
+g=int("0xab",base=16)
+h=int("0b101",base=2)
+print(a,b,c,d,e,f,g,h,sep="\n")
+print(type(a),type(b),type(c),type(d),type(e),type(f),type(g),type(h))
